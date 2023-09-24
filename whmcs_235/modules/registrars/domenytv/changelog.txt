@@ -1,0 +1,69 @@
+Moduł rejestratora V2.35, 2022-12-29
+- Poprawiono błędy uniemożliwiające uruchomienie aktualizatora cen
+
+Moduł rejestratora V2.34, 2022-12-12
+- Poprawiono obsługę autoloadera dla PHP 8.1
+
+Moduł rejestratora V2.33, 2022-04-20
+- Poprawiono błędy przy obsłudze listy zakupionych certyfikatów SSL
+- Poprawiono błędy zadań CRON
+
+Moduł rejestratora V2.32, 2022-02-14
+- Moduł rejestratora  - poprawiono błędy przy synchronizacji domen - domeny IDN
+- Moduł rejestratora  - poprawiono błędy przy pobieraniu danych dotyczących zarejestrowanych domen
+
+Moduł rejestratora V2.31, 2021-11-05
+- Aktualizator cen oraz Moduł Rejstratora  - poprawiono błedy aktywacji modułu
+
+Moduł rejestratora V2.30, 2021-07-23
+- Aktualizator cen - poprawiono obsługę błędów
+- Aktualizaotr cen - poprawiono błąd związany pobieraniem walut
+- Moduł rejestratora - poprawiono błędy przy instalacji nowej wersji modułu
+
+Moduł rejestratora V2.29, 2021-04-07
+- Aktualizator cen - dodano obsługę wielu walut
+- Moduł rejestratora - wprowadzono poprawki przy identyfikacji domen
+
+Moduł rejestratora V2.28, 2020-11-09
+- Moduł rejestratora - dodano obsługe pola "ID number" przy rejstracji domeny
+- Moduł rejestratora - poprawiono błędy z obsługą białych znaków podczas rejstracji domeny
+- Moduł rejestratora - poprawiono błąd powodujący niepoprawne wyświetlanie dostęponości domeny
+
+Moduł rejestratora V2.27, 2020-01-13
+- Moduł rejestratora - została wyłączona opcja rezerwacji domen podczas procesu zakupowego
+- Moduł rejestratora - poprawiono przekazywanie nr NIP/VAT
+
+Moduł rejestratora V2.27, 2019-10-01
+- Moduł rejestratora - dodana została opcja blokady pobierania kodu authinfo dla użytkowników (Panel użytkownika)
+
+Moduł rejestratora V2.25, 2019-08-29
+- Aktualizaotr cen - zmiana w sposobie naliczania prowizji
+- poprawiono obsługę transferów domen
+
+Moduł rejestratora V2.24, 2019-08-20
+- Został dodany nowy moduł odpowiedzialny za zamawianie certyfikatów SSL
+- Aktualizaotr cen - poprawiono widoki dla mniejszych rozdzielczości
+- Aktualizator cen - dodano możliwość indywidualnego zapisu cen dla rejstracji, przedłużenia oraz transferu
+
+Moduł rejestratora V2.23, 2019-07-22
+- Aktualizator cen - Możliwość ustalenia oddzielnej marży dla rejestracji, odnowienia i transferu
+- Aktualizator cen - Dodano exportowanie danych z aktualizatora do CSV
+- Poprawiono błąd związany z zapisywaniem "pustych" cen przez aktualizator.
+- Widget - Dodano informację o aktualnym saldzie
+
+Moduł rejestratora V2.22, 2019-01-24
+- Usunięto błąd powodujący nadmierne odpytywanie API
+- Został zmniejszony czas dla cache domen
+
+Moduł rejestratora V2.21, 2019-01-22
+- Dodano obsługę nowego statusu (wygasła rezerwacja) przy sprawdzaniu domen premium
+- Dodano moduł umożliwiający aktualizację/importowanie cen domen na podstawie danych zwracanych przez API Domeny.tv
+- Całkowicie zmieniony widget Domeny.tv informujący o nowej dostępnej wersji pluginu
+- Wyłączono cache przy synchronizacji domen (pobieranie danych).
+
+
+Moduł rejestratora V2.20, 2018-12-04
+- Poprawiony błąd javascript związany z sugerowaniem domen
+- Dodano możliwość modyfikacji kontaktu dla domeny
+- Poprawiono synchronizację domen dla wersji WHMCSa > 7.0
+- Rozbudowano sprawdzanie domeny (czy są możliwe do rejestracji) o domeny premium
